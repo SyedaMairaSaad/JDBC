@@ -21,7 +21,7 @@ public class JdbcConnectivity {
 		//than /DATABASE_NAME
 		String url="jdbc:mysql://localhost:3306/javadb";
 		String userName="root";
-		String password="Qwerty12345";
+		String password="12345";
 		
 		
 		String query ="select firstName from persons where PersonID=1";
