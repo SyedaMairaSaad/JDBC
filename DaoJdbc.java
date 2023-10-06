@@ -45,7 +45,7 @@ class personDAO{
 	public Person getPerson(int personID) {
 		String url = "jdbc:mysql://localhost:3306/javadb";
 		String userName = "root";
-		String password = "Qwerty12345";
+		String password = "12345";
 		String query ="select * from persons where PersonID="+personID;
 		Person p=new Person();
 		
