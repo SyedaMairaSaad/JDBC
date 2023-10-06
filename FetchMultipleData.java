@@ -7,7 +7,7 @@ public class FetchMultipleData {
 		
 		String url="jdbc:mysql://localhost:3306/javadb";
 		String userName="root";
-		String password="Qwerty12345";		
+		String password="12345";		
 		String query ="select firstName,lastName from persons;";
 		Class.forName("com.mysql.cj.jdbc.Driver");
 		try {
